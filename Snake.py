@@ -3,7 +3,6 @@
 """
 
 
-
 import pygame
 import sys
 import random
@@ -157,6 +156,3 @@ def main():
         screen.blit(surface, (0, 0))
         pygame.display.set_caption(f'Score : {snake.score} | Record : {record}')
         pygame.display.update()
-
-
-# main()
